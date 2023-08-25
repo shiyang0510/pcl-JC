@@ -12,7 +12,7 @@
           </StackPanel>
             <TextBlock  TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,0,0,10" FontSize="15" Text="当然 一定要把此文件下载后慢慢理解 否则您大概率是听不懂的（除非您的想象力超群或者您只是好奇）" />
          <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <local:MyButton Text="下载本篇代码" Width="200" Margin="0,0,0,10" Height="35" HorizontalAlignment="Center" ColorType="Highlight" EventType="下载文件" EventData="https://raw.githubusercontent.com/shiyang0510/pcl-KZ/main/Custom.xaml" />
+            <local:MyButton Text="下载本篇代码" Width="200" Margin="0,0,0,10" Height="35" HorizontalAlignment="Center" ColorType="Highlight" EventType="下载文件" EventData="https://raw.githubusercontent.com/shiyang0510/pcl-JC/main/Custom.xaml" />
          </StackPanel>
      </StackPanel>
 </local:MyCard>
