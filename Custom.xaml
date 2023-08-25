@@ -113,16 +113,16 @@
 </local:MyCard>
 <local:MyCard Title="学后语" Margin="0,0,0,15" CanSwap="True" IsSwaped="True" >
     <StackPanel Margin="25,40,23,15">
-    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="看到这里相信你也差不多懂了一些啦，赶紧去试试吧！，可能有些地方讲的不到位，大家可以去QQ群反馈哦！" HorizontalAlignment="Left" />
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="看到这里相信你也差不多懂了一些啦，赶紧去试试吧！可能有些地方讲的不到位，大家可以去gitee反馈哦！" HorizontalAlignment="Left" />
     <local:MyButton Width="200"  HorizontalAlignment="Center" Margin="0,4,10,8" Height="35" Padding="13,0,13,0" ColorType="Highlight"
-    Text="反馈至QQ群" EventType="复制文本" EventData="835661493" ToolTip="因技术原因只好反馈至QQ" />
+    Text="反馈至gitee" EventType="打开网页" EventData="https://gitee.com/csy0519/pcl2-GK-SY/issues" ToolTip="快快反馈吧！" />
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="进阶学习" Margin="0,0,0,15" CanSwap="False" >
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="以下为进阶学习，请自行学习" HorizontalAlignment="Left" />
         <local:MyHint Text="以下内容为仕洋原创，如有不准确/错词等问题请联系仕洋！" IsWarn="True"/>
-        <local:MyButton Text="上传错误报告" Margin="0,8,0,10" ColorType="Highlight" EventType="复制文本" EventData="2473573684@qq.com" Width="200" Height="35" HorizontalAlignment="Right"/>
+        <local:MyButton Text="上传错误报告" Margin="0,8,0,10" ColorType="Highlight" EventType="打开网页" EventData="https://gitee.com/csy0519/pcl2-GK-SY/issues" Width="200" Height="35" HorizontalAlignment="Right"/>
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="第一章：联网更新跳转自定义帮助页面" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
@@ -130,7 +130,7 @@
         <local:MyHint Text="请注意！此章较为困难！请结合源码观看理解！（以文章的形式来展现）"/>
         <TextBlock TextWrapping="Wrap" Margin="0,8,0,0" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
                      Text="      自定义跳转，是由 MyComboBox 实现的下拉菜单，并且由 MyComboBoxItem 实现菜单功能。主要是数据绑定通过WPF库的数据绑定，即可实现自定义跳转功能。简单来说，就是在同一目录下你选择的选型名称。有对应的名字相同的JSON和XAML文件，即可实现跳转。如果实在不懂，你就直接找仕洋问。没有一点毛病（" />
-        <local:MyButton Margin="0,8,0,0" Text="反馈邮箱" Width="200" Height="35" ColorType="Highlight" HorizontalAlignment="Right" />
+        <local:MyButton Margin="0,8,0,0" Text="反馈地址" Width="200" Height="35" ColorType="Highlight" HorizontalAlignment="Right" EventData="https://gitee.com/csy0519/pcl2-GK-SY/issues" EventType="打开网页"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Text="以下是一个演示：" HorizontalAlignment="Left" />
         <local:MyComboBox  Height="30" SelectedIndex="0">
             <local:MyComboBoxItem Content="这是一个选项" />
