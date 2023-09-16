@@ -1,4 +1,4 @@
-<local:MyHint Text="编写者：仕洋不是羊   最后更新：2023/8/28" Margin="0,0,0,8" IsWarn="False" />
+<local:MyHint Text="编写者：仕洋不是羊   最后更新：2023/9/16" Margin="0,0,0,8" IsWarn="False" />
 <local:MyCard Title="欢迎学习由仕洋SY提供的自定义主页教学！" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">
      <StackPanel Margin="25,40,23,15" >
          <StackPanel Orientation="Horizontal" Height="25" Width="800">
@@ -198,6 +198,19 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="回声洞"  Margin="0,0,0,15"  CanSwap="False"  >
+<StackPanel Margin="25,40,23,15" >
+    <TextBlock Text="{cave}"  HorizontalAlignment="Left" TextWrapping="Wrap" />
+    <local:MyIconButton ToolTip="刷新回声洞" EventData="刷新主页" EventType="刷新主页" Width="22" HorizontalAlignment="Right" Logo="M875.52 148.48C783.36 56.32 655.36 0 512 0 291.84 0 107.52 138.24 30.72 332.8l122.88 46.08C204.8 230.4 348.16 128 512 128c107.52 0 199.68 40.96 271.36 112.64L640 384h384V0L875.52 148.48zM512 896c-107.52 0-199.68-40.96-271.36-112.64L384 640H0v384l148.48-148.48C240.64 967.68 368.64 1024 512 1024c220.16 0 404.48-138.24 481.28-332.8L870.4 645.12C819.2 793.6 675.84 896 512 896z" />
+</StackPanel>
+</local:MyCard>
+<local:MyCard Margin="0,0,0,15" Title="第五章：local:MyIconButton" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,8" TextWrapping="Wrap" FontSize="15" Text="在龙猫2.6.5 - 2.6.6 的更新中加入了这个新的控件 “local:MyIconButton” 这也可以让我们的矢量图按钮，有了一个动画的补充（会好看些，后续我会把矢量图按钮更换成MyIconButton）"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15" Foreground="{DynamicResource ColorBrush2}" Text="一个示例：" HorizontalAlignment="Left" />    
+        <local:MyIconButton ToolTip="刷新主页" EventData="刷新主页" EventType="刷新主页" Width="24" HorizontalAlignment="Center" Logo="M875.52 148.48C783.36 56.32 655.36 0 512 0 291.84 0 107.52 138.24 30.72 332.8l122.88 46.08C204.8 230.4 348.16 128 512 128c107.52 0 199.68 40.96 271.36 112.64L640 384h384V0L875.52 148.48zM512 896c-107.52 0-199.68-40.96-271.36-112.64L384 640H0v384l148.48-148.48C240.64 967.68 368.64 1024 512 1024c220.16 0 404.48-138.24 481.28-332.8L870.4 645.12C819.2 793.6 675.84 896 512 896z" />
+    </StackPanel>
+</local:MyCard>
 
 <!--
 
